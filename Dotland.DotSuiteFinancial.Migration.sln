@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotland.DotSuiteFinancial.Migration", "Dotland.DotSuiteFinancial.Migration\Dotland.DotSuiteFinancial.Migration.csproj", "{67FD67D2-C262-47DA-8870-8486B5CAE4E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1831332B-D837-47A9-806B-F93D1B1B33AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotland.DotSuiteFinancial.Migration.Infrastructure", "src\Dotland.DotSuiteFinancial.Migration.Infrastructure\Dotland.DotSuiteFinancial.Migration.Infrastructure.csproj", "{7E1564EF-3946-4F69-9BC7-F508DB6AD5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotland.DotSuiteFinancial.Migration.Domain", "src\Dotland.DotSuiteFinancial.Migration.Domain\Dotland.DotSuiteFinancial.Migration.Domain.csproj", "{BCB56EF8-D753-4122-AB68-A5839AD789D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67FD67D2-C262-47DA-8870-8486B5CAE4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FD67D2-C262-47DA-8870-8486B5CAE4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FD67D2-C262-47DA-8870-8486B5CAE4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FD67D2-C262-47DA-8870-8486B5CAE4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E1564EF-3946-4F69-9BC7-F508DB6AD5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1564EF-3946-4F69-9BC7-F508DB6AD5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1564EF-3946-4F69-9BC7-F508DB6AD5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1564EF-3946-4F69-9BC7-F508DB6AD5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB56EF8-D753-4122-AB68-A5839AD789D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB56EF8-D753-4122-AB68-A5839AD789D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB56EF8-D753-4122-AB68-A5839AD789D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB56EF8-D753-4122-AB68-A5839AD789D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E1564EF-3946-4F69-9BC7-F508DB6AD5B5} = {1831332B-D837-47A9-806B-F93D1B1B33AE}
+		{BCB56EF8-D753-4122-AB68-A5839AD789D5} = {1831332B-D837-47A9-806B-F93D1B1B33AE}
+	EndGlobalSection
+EndGlobal
