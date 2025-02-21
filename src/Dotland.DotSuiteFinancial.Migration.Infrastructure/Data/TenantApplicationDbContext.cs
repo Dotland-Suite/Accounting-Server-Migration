@@ -31,9 +31,9 @@ public partial class TenantApplicationDbContext : DbContext
 
     public virtual DbSet<BILLS_PAYMENTS_ENTRy> BILLS_PAYMENTS_ENTRIEs { get; set; }
 
-    public virtual DbSet<BILL_LOCATED_COST> BILL_LOCATED_COSTs { get; set; }
+    public virtual DbSet<BillLocatedCost> BILL_LOCATED_COSTs { get; set; }
 
-    public virtual DbSet<BILL_LOCATED_COST_ENTRy> BILL_LOCATED_COST_ENTRIEs { get; set; }
+    public virtual DbSet<BillLocatedCostEntry> BILL_LOCATED_COST_ENTRIEs { get; set; }
 
     public virtual DbSet<BRANCH> BRANCHEs { get; set; }
 

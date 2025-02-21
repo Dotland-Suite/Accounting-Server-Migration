@@ -7,6 +7,11 @@ public class BillEntityConfiguration : IEntityTypeConfiguration<Bill>
 {
     public void Configure(EntityTypeBuilder<Bill> entity)
     {
+        entity
+            .ToTable("BILL")
+            .HasCharSet("utf8")
+            .UseCollation("utf8_general_ci");
+        
         entity.HasKey(e => e.Id).HasName("PRIMARY");
 
         entity.Property(e => e.AllocatedCostAmount).HasDefaultValueSql("'0.000'");

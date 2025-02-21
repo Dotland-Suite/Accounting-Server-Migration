@@ -1,42 +1,24 @@
 ﻿namespace Dotland.DotSuiteFinancial.Migration.Domain.Entities.TenantApplication;
 
-public partial class BILLS_PAYMENT
+public class BILLS_PAYMENT
 {
-    public uint ID { get; set; }
-
-    public uint? VENDOR_ID { get; set; }
-
-    public decimal? AMOUNT { get; set; }
-
-    public string? CURRENCY_CODE { get; set; }
-
-    public decimal? EXCHANGE_RATE { get; set; }
-
-    public uint? PAYMENT_ACCOUNT_ID { get; set; }
-
-    public string? PAYMENT_NUMBER { get; set; }
-
-    public DateOnly? PAYMENT_DATE { get; set; }
-
-    public string? PAYMENT_METHOD { get; set; }
-
-    public string? REFERENCE { get; set; }
-
-    public uint? USER_ID { get; set; }
-
-    public string? STATEMENT { get; set; }
-
-    public DateTime? CREATED_AT { get; set; }
-
-    public DateTime? UPDATED_AT { get; set; }
-
-    public uint? BRANCH_ID { get; set; }
-
-    public virtual ICollection<BILLS_PAYMENTS_ENTRy> BILLS_PAYMENTS_ENTRies { get; set; } = new List<BILLS_PAYMENTS_ENTRy>();
-
-    public virtual BRANCH? BRANCH { get; set; }
-
-    public virtual Account? PAYMENT_ACCOUNT { get; set; }
-
-    public virtual CONTACT? VENDOR { get; set; }
+    public uint Id { get; set; }
+    public uint? VendorId { get; set; }
+    public decimal? Amount { get; set; }
+    public string? CurrencyCode { get; set; }
+    public decimal? ExchangeRate { get; set; }
+    public uint? PaymentAccountId { get; set; }
+    public string? PaymentNumber { get; set; }
+    public DateOnly? PaymentDate { get; set; }
+    public string? PaymentMethod { get; set; }
+    public string? Reference { get; set; }
+    public uint? UserId { get; set; }
+    public string? Statement { get; set; }
+    public DateTime? CreatedAt { get; set; }
+    public DateTime? UpdatedAt { get; set; }
+    public uint? BranchId { get; set; }
+    public virtual ICollection<BILLS_PAYMENTS_ENTRy> BillsPaymentsEntRies { get; set; } = new List<BILLS_PAYMENTS_ENTRy>();
+    public virtual BRANCH? Branch { get; set; }
+    public virtual Account? PaymentAccount { get; set; }
+    public virtual CONTACT? Vendor { get; set; }
 }
